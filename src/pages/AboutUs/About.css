@@ -1,0 +1,71 @@
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #e9e9eb;
+  color: #4b6043;
+}
+
+.about-container {
+  margin: 0 auto;
+  padding: 7rem 0;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: contain;
+}
+.introText {
+  font-family: "Dancing Script", cursive;
+  font-size: 4rem;
+}
+.subTitle {
+  font-family: "Raleway", sans-serif;
+  padding: 20px 0;
+  font-size: 1.2rem;
+}
+.flex-wrapper {
+  display: flex;
+  padding: 60px 0;
+  height: 600px;
+}
+
+.picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 43%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  padding: 1rem;
+}
+
+.heart-overlay {
+  width: 100%;
+  height: auto;
+}
+.round-foto {
+  position: absolute;
+  width: 45%;
+  border-radius: 50%;
+}
+
+.info {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: flex-end;
+}
+
+.info:first-child {
+  align-items: flex-start;
+  text-align: right;
+}
+
+.info:last-child .socials {
+  justify-content: flex-start;
+}
