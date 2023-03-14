@@ -11,7 +11,7 @@ export const Button = ({
   onClick,
   buttonStyle,
   buttonSize,
-  link = "/sign-up",
+  link,
 }) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle

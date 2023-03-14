@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   width: 100%;
   background-color: #e9e9eb;
   color: #4b6043;
@@ -68,4 +67,10 @@
 
 .info:last-child .socials {
   justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+  .flex-wrapper {
+    flex-direction: column;
+  }
 }

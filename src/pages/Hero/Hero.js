@@ -6,9 +6,6 @@ import "./Hero.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      {/* <video autoPlay loop muted>
-        <source type="video/mp4" src="videos/fishing.mp4"></source>
-      </video> */}
       <p>Pobieramy się!</p>
       <h1>Kinga & Mateusz</h1>
       <p className="text">Ciesz się z nami tą chwilą</p>
