@@ -86,3 +86,12 @@ p.text::before {
   content: "\00a0\00a0\00a0\00a0\00a0";
   text-decoration: line-through;
 }
+
+.time {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}

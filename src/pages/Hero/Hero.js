@@ -1,11 +1,17 @@
 import React from "react";
 import { Link as LinkS } from "react-scroll";
 import { ScrollDownBTN } from "../Button/ScrollButton";
+import Countdown from "../Counter/Counter";
+
 import "./Hero.css";
 
 function HeroSection() {
   return (
     <div className="hero-container">
+      <div className="time">
+        <div>Do zobaczenia za:</div>
+        <Countdown />
+      </div>
       <p>Pobieramy się!</p>
       <h1>Kinga & Mateusz</h1>
       <p className="text">Ciesz się z nami tą chwilą</p>

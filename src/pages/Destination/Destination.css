@@ -33,15 +33,19 @@
 .tab-buttons {
   display: flex;
   justify-content: center;
+  z-index: 4;
+  margin-bottom: -3px;
 }
 
 .tab-buttons button {
-  background-color: #eee;
+  background-color: #4b6043;
   border: none;
-  border-radius: 4px;
-  padding: 8px 16px;
-  margin-right: 8px;
+  border: 1px solid #ccba78;
+  border-bottom: none;
+  min-width: 200px;
+  padding: 12px 16px;
   cursor: pointer;
+  color: white;
 }
 
 .tab-buttons button:hover {
@@ -49,12 +53,15 @@
 }
 
 .tab-buttons button.active {
-  background-color: #0074d9;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
+  border: 3px solid #ccba78;
+  border-bottom: none;
 }
 
 .tab-content {
-  border: 1px solid #ccc;
+  border: 3px solid #ccba78;
+  background-color: #fff;
   border-radius: 4px;
   padding: 16px;
   display: flex;
