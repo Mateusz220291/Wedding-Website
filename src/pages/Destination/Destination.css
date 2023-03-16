@@ -67,6 +67,7 @@
   display: flex;
   box-sizing: border-box;
   width: 100%;
+  position: relative;
 }
 
 .tab-content .tab-1 {
@@ -104,4 +105,19 @@
 .map {
   width: 50%;
   height: 100%;
+}
+
+.tab-content .top-left,
+.tab-content .bottom-right {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  background-repeat: no-repeat;
+}
+
+.top-left {
+  top: -200px;
+  left: 0;
+  background: url("img/green.png") center center/cover no-repeat;
+  transform: rotate(90deg);
 }
