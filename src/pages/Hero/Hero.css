@@ -89,7 +89,7 @@ p.text::before {
 
 .time {
   position: absolute;
-  right: 20px;
+  right: 30px;
   top: 20px;
   color: white;
   font-size: 2rem;

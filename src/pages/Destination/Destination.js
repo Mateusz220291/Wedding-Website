@@ -42,6 +42,8 @@ const TabComponent = () => {
           </button>
         </div>
         <div className="tab-content">
+          <div className="top-left"></div>
+          <div className="bottom-right"></div>
           {activeTab === 0 && (
             <div className="tab-1">
               <h3>Ślub</h3>
