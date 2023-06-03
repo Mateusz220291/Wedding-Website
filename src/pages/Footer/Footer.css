@@ -1,0 +1,36 @@
+.footer-section {
+  flex-basis: 50%;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #ffffff, #fdf3e0);
+  text-align: center;
+  padding: 7rem 10px;
+  display: flex;
+  align-items: center;
+  color: #4b6043;
+}
+
+.content {
+  max-width: 1400px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 0;
+  gap: 20px;
+}
+
+.time {
+  line-height: 1.2;
+  top: 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .contacts {
+    flex-direction: column;
+  }
+}

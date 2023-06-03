@@ -1,11 +1,12 @@
-.container {
-  padding: 0 3rem;
+.card-container {
+  padding: 0 2rem;
   color: #4b6043;
 }
 
 .ourName {
   font-family: "Dancing Script", cursive;
   font-size: 2.3rem;
+  padding: 10px 0;
 }
 
 .ourText {
@@ -26,7 +27,24 @@
   margin: 10px auto 0 auto;
 }
 
-.social {
+.about-social {
   color: #4b6043;
-  font-size: 30px;
+  font-size: 2.5rem;
+  padding: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .ourText {
+    text-align: justify;
+  }
+  .socials {
+    justify-content: center;
+  }
+  .ourName {
+    text-align: center;
+  }
+  .about-social {
+    font-size: 3rem;
+    padding: 1rem;
+  }
 }

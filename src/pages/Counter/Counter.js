@@ -26,7 +26,7 @@ function Countdown() {
     return () => clearInterval(interval);
   }, []);
 
-  return <div>{timeLeft}</div>;
+  return <p>{timeLeft}</p>;
 }
 
 export default Countdown;

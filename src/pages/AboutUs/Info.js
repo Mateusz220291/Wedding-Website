@@ -2,25 +2,26 @@ import React from "react";
 import "./Info.css";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 
-function Info() {
+function Info({ ...props }) {
   return (
-    <div className="container">
-      <h3 className="ourName">Mateusz Mikła</h3>
-      <p className="ourText">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus optio
-        obcaecati id est alias accusantium, quas mollitia voluptas adipisci
-        dolore blanditiis.
-      </p>
+    <div className="card-container">
+      <h3 className="ourName">{props.name}</h3>
+      <p className="ourText">{props.text}</p>
       <div className="socials">
         <a
-          href="https://www.facebook.com/mateuszmikla"
+          href={props.facebook}
           target="_blank"
-          className="social"
+          className="about-social"
           aria-label="Facebook"
         >
           <FaFacebook />
         </a>
-        <a href="#" target="_blank" className="social" aria-label="Instagram">
+        <a
+          href={props.instagram}
+          target="_blank"
+          className="about-social"
+          aria-label="Instagram"
+        >
           <FaInstagram />
         </a>
       </div>

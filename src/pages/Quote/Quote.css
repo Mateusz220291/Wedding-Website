@@ -4,7 +4,7 @@
   align-items: center;
   height: 50vh;
   /* background-color: #4b6043; */
-  background: url("../Hero/img/love.jpg") center center/cover no-repeat;
+  background: url("./img/background.jpg") center center/cover no-repeat;
   background-attachment: fixed;
   position: relative;
 }
@@ -14,7 +14,7 @@
   max-width: 800px;
   margin: 10px 30px;
   padding: 25px;
-  background: #ddd;
+  background: linear-gradient(135deg, #ffffff, #fdf3e0);
   border: 1px solid #192913;
   color: #192913;
 }
@@ -45,4 +45,10 @@
   font-size: 120px;
   color: #ccba78;
   display: block;
+}
+
+@media (max-width: 768px) {
+  .quote-section {
+    height: 100vh;
+  }
 }

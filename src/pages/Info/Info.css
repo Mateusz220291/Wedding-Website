@@ -1,0 +1,32 @@
+.info-section {
+  display: flex;
+  background: var(--maincolor);
+  text-align: center;
+  justify-content: center;
+  color: var(--secondcolor);
+  padding: 7rem 0;
+  background: url("img/bench1.jpg") center center/cover no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.info-container {
+  display: flex;
+  max-width: 1300px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-wrapper {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.info-title {
+  font-family: "Dancing Script", cursive;
+  font-size: 4rem;
+}

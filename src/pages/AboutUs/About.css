@@ -3,7 +3,8 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: #e9e9eb;
+  /* background-color: #e9e9eb; */
+  background: linear-gradient(135deg, #ffffff, #fdf3e0);
   color: #4b6043;
 }
 
@@ -20,57 +21,57 @@
   font-family: "Dancing Script", cursive;
   font-size: 4rem;
 }
-.subTitle {
-  font-family: "Raleway", sans-serif;
-  padding: 20px 0;
-  font-size: 1.2rem;
-}
+
 .flex-wrapper {
   display: flex;
   padding: 60px 0;
-  height: 600px;
 }
 
 .picture {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 0 0 43%;
+  flex: 0 0 40%;
   background-size: cover;
   background-repeat: no-repeat;
   float: left;
   overflow: hidden;
   position: relative;
-  padding: 1rem;
 }
-
 .heart-overlay {
   width: 100%;
   height: auto;
 }
 .round-foto {
   position: absolute;
-  width: 45%;
+  width: 55%;
   border-radius: 50%;
 }
 
-.info {
+.about-info {
   flex: 1 1 auto;
   display: flex;
   align-items: flex-end;
 }
 
-.info:first-child {
+.about-info:first-child {
   align-items: flex-start;
   text-align: right;
 }
 
-.info:last-child .socials {
+.about-info:last-child .socials {
   justify-content: flex-start;
 }
 
 @media (max-width: 768px) {
   .flex-wrapper {
     flex-direction: column;
+    padding: 0;
+  }
+  .about-info:last-child .socials {
+    justify-content: center;
+  }
+  .picture {
+    margin: 20px 0;
   }
 }

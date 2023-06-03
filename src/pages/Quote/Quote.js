@@ -6,10 +6,10 @@ function QuoteSection() {
     <div className="quote-section">
       <div className="quote-wrapper quote--border-left">
         <p className="quote-text quote-text--quoted">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit est
-          voluptate excepturi dolorem quos eum eligendi perspiciatis neque.
+          Z wielu dróg, którymi może pójść człowiek, wybraliśmy tę jedną –
+          wspólną.
         </p>
-        <p className="quote-text quote-text--author">- Kinga Krzaczyńska</p>
+        <p className="quote-text quote-text--author">Autor nieznany</p>
       </div>
     </div>
   );
