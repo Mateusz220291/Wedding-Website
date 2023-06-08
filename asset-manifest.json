@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/wedding/static/css/main.df54fe19.css",
+    "main.js": "/wedding/static/js/main.51ea2055.js",
+    "static/media/church.jpg": "/wedding/static/media/church.c1a741fa2624b5bc3fd2.jpg",
+    "static/media/frame.png": "/wedding/static/media/frame.c470e9b7a37cbeba3271.png",
+    "static/media/bench1.jpg": "/wedding/static/media/bench1.672093d93f6320e2a196.jpg",
+    "static/media/party.jpg": "/wedding/static/media/party.c475ea6dd041bcc21343.jpg",
+    "static/media/background.jpg": "/wedding/static/media/background.9b601c3f17d580aeb9b5.jpg",
+    "static/media/we.jpg": "/wedding/static/media/we.e54d251305420b340611.jpg",
+    "static/media/love.jpg": "/wedding/static/media/love.c4a3fd33cf70399e82c1.jpg",
+    "static/media/kinga1.jpg": "/wedding/static/media/kinga1.294231035ff3f7dabe94.jpg",
+    "static/media/karolina1.jpg": "/wedding/static/media/karolina1.621fd0421e83affb4374.jpg",
+    "static/media/green.png": "/wedding/static/media/green.a4b7e64ed308e936ca53.png",
+    "static/media/mateusz.jpg": "/wedding/static/media/mateusz.2ea6d96ec0cea63d6fb6.jpg",
+    "static/media/mariusz2.jpg": "/wedding/static/media/mariusz2.1aabdbafb84f12980868.jpg",
+    "static/media/food.png": "/wedding/static/media/food.ad575754ebcf21e32195.png",
+    "static/media/money.png": "/wedding/static/media/money.3667b5556c076d57419e.png",
+    "static/media/calendar.png": "/wedding/static/media/calendar.24c974015dcc7b624f54.png",
+    "index.html": "/wedding/index.html",
+    "main.df54fe19.css.map": "/wedding/static/css/main.df54fe19.css.map",
+    "main.51ea2055.js.map": "/wedding/static/js/main.51ea2055.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df54fe19.css",
+    "static/js/main.51ea2055.js"
+  ]
+}
