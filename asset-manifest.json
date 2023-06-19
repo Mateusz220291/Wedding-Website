@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/wedding/static/css/main.df54fe19.css",
-    "main.js": "/wedding/static/js/main.51ea2055.js",
+    "main.css": "/wedding/static/css/main.48d6ab4f.css",
+    "main.js": "/wedding/static/js/main.71f66cb6.js",
     "static/media/church.jpg": "/wedding/static/media/church.c1a741fa2624b5bc3fd2.jpg",
     "static/media/frame.png": "/wedding/static/media/frame.c470e9b7a37cbeba3271.png",
-    "static/media/bench1.jpg": "/wedding/static/media/bench1.672093d93f6320e2a196.jpg",
     "static/media/party.jpg": "/wedding/static/media/party.c475ea6dd041bcc21343.jpg",
     "static/media/background.jpg": "/wedding/static/media/background.9b601c3f17d580aeb9b5.jpg",
     "static/media/we.jpg": "/wedding/static/media/we.e54d251305420b340611.jpg",
+    "static/media/desktop.jpg": "/wedding/static/media/desktop.1f7abf38fef31eeb1d6b.jpg",
     "static/media/love.jpg": "/wedding/static/media/love.c4a3fd33cf70399e82c1.jpg",
+    "static/media/mobile.jpg": "/wedding/static/media/mobile.33758a6c9421b5c832ce.jpg",
     "static/media/kinga1.jpg": "/wedding/static/media/kinga1.294231035ff3f7dabe94.jpg",
     "static/media/karolina1.jpg": "/wedding/static/media/karolina1.621fd0421e83affb4374.jpg",
     "static/media/green.png": "/wedding/static/media/green.a4b7e64ed308e936ca53.png",
@@ -18,11 +19,11 @@
     "static/media/money.png": "/wedding/static/media/money.3667b5556c076d57419e.png",
     "static/media/calendar.png": "/wedding/static/media/calendar.24c974015dcc7b624f54.png",
     "index.html": "/wedding/index.html",
-    "main.df54fe19.css.map": "/wedding/static/css/main.df54fe19.css.map",
-    "main.51ea2055.js.map": "/wedding/static/js/main.51ea2055.js.map"
+    "main.48d6ab4f.css.map": "/wedding/static/css/main.48d6ab4f.css.map",
+    "main.71f66cb6.js.map": "/wedding/static/js/main.71f66cb6.js.map"
   },
   "entrypoints": [
-    "static/css/main.df54fe19.css",
-    "static/js/main.51ea2055.js"
+    "static/css/main.48d6ab4f.css",
+    "static/js/main.71f66cb6.js"
   ]
 }
