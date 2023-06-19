@@ -22,15 +22,19 @@ function Form() {
         <p className="text">mateuszmikla@wp.pl</p>
       </div>
 
-      <form action="" method="POST" className="form">
+      <form
+        action="https://formspree.io/f/mrgrqpqa"
+        method="POST"
+        className="form"
+      >
         <label for="name" className="form-label">
-          IMIE
+          IMIĘ i NAZWISKO
         </label>
         <input
           name="name"
           id="name"
           type="text"
-          placeholder="imię"
+          placeholder="imię i nazwisko"
           required="required"
           className="form-input"
         />
@@ -54,7 +58,9 @@ function Form() {
           placeholder="wiadomość"
           className="form-textarea"
         />
-        {/* <FormSubmitButton type="submit">Wyślij</FormSubmitButton> */}
+        <button type="submit" className="form-button">
+          Wyślij
+        </button>
       </form>
     </div>
   );

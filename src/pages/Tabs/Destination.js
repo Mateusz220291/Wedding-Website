@@ -33,7 +33,8 @@ const TabComponent = () => {
         </h1>
         <h2 className="subtitle">
           Poniżej garść informacji dotyczacych uroczystości kościelnej i zabawy
-          weselnej.
+          weselnej. Kliknij odpowiednią zakładkę poniżej aby dowiedzieć się
+          więcej.
         </h2>
         <div className="tab-buttons">
           <button
