@@ -1,13 +1,7 @@
 import React, { useState } from "react";
 import "./Destination.css";
 import { GoogleMap, MarkerF, useLoadScript } from "@react-google-maps/api";
-import {
-  FaFacebook,
-  FaGlobe,
-  FaInstagram,
-  FaSitemap,
-  FaWeebly,
-} from "react-icons/fa";
+import { FaFacebook, FaGlobe, FaInstagram } from "react-icons/fa";
 
 const TabComponent = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -17,7 +11,7 @@ const TabComponent = () => {
   };
 
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "AIzaSyD9k-OCydocVMZUA5plbaGynmhrgN7iUHs",
+    googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
   });
 
   const locations = [
@@ -26,7 +20,7 @@ const TabComponent = () => {
   ];
 
   return (
-    <div className="map-section">
+    <section className="map-section">
       <div className="tab-component">
         <h1 className="title">
           <span className="title-with-leaf"></span>Co, gdzie i kiedy...
@@ -65,6 +59,7 @@ const TabComponent = () => {
                   <a
                     href="https://www.facebook.com/profile.php?id=100071010078377"
                     target="_blank"
+                    rel="noreferrer"
                     className="social"
                     aria-label="Facebook"
                   >
@@ -73,6 +68,7 @@ const TabComponent = () => {
                   <a
                     href="http://parafiabogdanow.pl/"
                     target="_blank"
+                    rel="noreferrer"
                     className="social"
                     aria-label="Facebook"
                   >
@@ -143,7 +139,7 @@ const TabComponent = () => {
           )}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

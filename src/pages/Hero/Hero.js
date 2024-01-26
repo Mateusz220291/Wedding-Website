@@ -1,11 +1,11 @@
 import React from "react";
 import { Link as LinkS } from "react-scroll";
-import { ScrollDownBTN } from "../Button/ScrollButton";
+import { ScrollDownBTN } from "../../components/Button/ScrollButton";
 import "./Hero.css";
 
 function HeroSection({ scrollToNextSection }) {
   return (
-    <div className="hero-container">
+    <section className="hero-container">
       <p>Pobieramy się!</p>
       <h1>Kinga & Mateusz</h1>
       <p className="text">Ciesz się z nami tą chwilą</p>
@@ -23,7 +23,7 @@ function HeroSection({ scrollToNextSection }) {
           <ScrollDownBTN handleClick={scrollToNextSection}></ScrollDownBTN>
         </LinkS>
       </div>
-    </div>
+    </section>
   );
 }
 

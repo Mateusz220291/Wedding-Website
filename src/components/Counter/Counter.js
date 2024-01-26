@@ -4,7 +4,7 @@ function Countdown() {
   const [timeLeft, setTimeLeft] = useState("");
 
   useEffect(() => {
-    const countdownDate = new Date("2023-09-07T18:00:00Z").getTime();
+    const countdownDate = new Date("2023-09-07T16:00:00Z").getTime();
     const interval = setInterval(() => {
       const now = new Date().getTime();
       const distance = countdownDate - now;
@@ -13,9 +13,8 @@ function Countdown() {
       const hours = Math.floor(
         (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
       );
-      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 
-      setTimeLeft(`${days}d ${hours}h ${minutes}m`);
+      setTimeLeft(`${days}d ${hours}h `);
 
       if (distance < 0) {
         clearInterval(interval);

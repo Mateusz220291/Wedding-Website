@@ -10,8 +10,8 @@ function OfferCard({ src, title, text }) {
   return (
     <div data-aos="zoom-in" data-aos-once="true" className="card">
       <div className="card-inner">
-        <div className="img-wrapper">
-          <img src={src} className="img" alt="sialalala"></img>
+        <div className="card-img-wrapper">
+          <img src={src} className="card-img" alt="sialalala"></img>
         </div>
         <h3 className="card-title">{title}</h3>
         <p className="card-text">{text}</p>

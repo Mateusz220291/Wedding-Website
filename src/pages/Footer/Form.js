@@ -1,25 +1,15 @@
 import React from "react";
 import "./Form.css";
-// import { Button } from "./GlobalStyle";
-// import styled from "styled-components";
-// import { Link } from "react-router-dom";
-// import myLogo from "../images/Logo.png";
-
-// import { animateScroll as scroll } from "react-scroll";
-// import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function Form() {
-  //   const toggleHome = () => {
-  //     scroll.scrollToTop();
-  //   };
   return (
     <div className="form-container">
-      <div className="wrapper">
-        <h3 className="contact-title">
+      <div className="form-wrapper">
+        <h3 className="form-contact-title">
           Potwierdź swoją obecność za pomocą poniższego formularza lub napisz do
           nas bezpośrednio na e-mail:
         </h3>
-        <p className="text">mateuszmikla@wp.pl</p>
+        <p className="form-text">mateuszmikla@wp.pl</p>
       </div>
 
       <form
@@ -27,7 +17,7 @@ function Form() {
         method="POST"
         className="form"
       >
-        <label for="name" className="form-label">
+        <label htmlFor="name" className="form-label">
           IMIĘ i NAZWISKO
         </label>
         <input
@@ -38,7 +28,7 @@ function Form() {
           required="required"
           className="form-input"
         />
-        <label for="email" className="form-label">
+        <label htmlFor="email" className="form-label">
           EMAIL
         </label>
         <input
@@ -49,7 +39,7 @@ function Form() {
           required="required"
           className="form-input"
         />
-        <label for="message" className="form-label">
+        <label htmlFor="message" className="form-label">
           WIADOMOŚĆ
         </label>
         <textarea

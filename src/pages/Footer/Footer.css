@@ -11,18 +11,18 @@
   color: #4b6043;
 }
 
-.content {
+.footer-content {
   max-width: 1400px;
 }
 
-.contacts {
+.footer-contacts {
   display: flex;
   flex-direction: row;
   padding: 30px 0;
   gap: 20px;
 }
 
-.time {
+.footer-time {
   line-height: 1.2;
   top: 20px;
   font-size: 2rem;
@@ -30,7 +30,7 @@
 }
 
 @media (max-width: 768px) {
-  .contacts {
+  .footer-contacts {
     flex-direction: column;
   }
 }

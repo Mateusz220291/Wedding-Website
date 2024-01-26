@@ -3,7 +3,6 @@
   justify-content: center;
   align-items: center;
   height: 50vh;
-  /* background-color: #4b6043; */
   background: url("./img/background.jpg") center center/cover no-repeat;
   background-attachment: fixed;
   position: relative;

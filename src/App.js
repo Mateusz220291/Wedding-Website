@@ -1,5 +1,4 @@
 import "./App.css";
-import { BrowserRouter as Router } from "react-router-dom";
 import HeroSection from "./pages/Hero/Hero";
 import AboutSection from "./pages/AboutUs/About";
 import QuoteSection from "./pages/Quote/Quote";
@@ -15,14 +14,14 @@ function App() {
     }
   };
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <>
       <HeroSection scrollToNextSection={scrollToNextSection} />
       <AboutSection />
       <QuoteSection />
       <TabComponent />
       <Offer></Offer>
       <Footer></Footer>
-    </Router>
+    </>
   );
 }
 

@@ -1,15 +1,15 @@
-.card-container {
+.personal-container {
   padding: 0 2rem;
   color: #4b6043;
 }
 
-.ourName {
+.personal-name {
   font-family: "Dancing Script", cursive;
   font-size: 2.3rem;
   padding: 10px 0;
 }
 
-.ourText {
+.personal-text {
   font-family: "Raleway", sans-serif;
   font-weight: 300;
   line-height: 1.5;
@@ -17,7 +17,7 @@
   letter-spacing: 0.1rem;
 }
 
-.socials {
+.personal-socials {
   display: flex;
   justify-content: flex-end;
   gap: 20px;
@@ -27,23 +27,23 @@
   margin: 10px auto 0 auto;
 }
 
-.about-social {
+.personal-social {
   color: #4b6043;
   font-size: 2.5rem;
   padding: 0.5rem;
 }
 
 @media (max-width: 768px) {
-  .ourText {
+  .personal-text {
     text-align: justify;
   }
-  .socials {
+  .personal-socials {
     justify-content: center;
   }
-  .ourName {
+  .personal-name {
     text-align: center;
   }
-  .about-social {
+  .personal-social {
     font-size: 3rem;
     padding: 1rem;
   }

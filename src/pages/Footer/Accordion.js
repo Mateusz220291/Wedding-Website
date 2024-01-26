@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Accordion.css";
+import { FiPlus, FiMinus } from "react-icons/fi";
 
 const Accordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -16,16 +17,20 @@ const Accordion = () => {
     },
     {
       question: "Do kiedy mogę potwierdzić obecność?",
-      answer: "Prosimy o potwierdzenie przybycia do 07 lipca 2023 r.",
+      answer: "Prosimy o potwierdzenie przybycia do 20 lipca 2023 r.",
     },
     {
       question: "Czy na wesele mogę przyjść z dziećmi?",
       answer: `Z uwagi na charakter uroczystości, postanowiliśmy zorganizować je w formacie "bez dzieci". Chcielibyśmy, aby każdy mógł swobodnie bawić się i skupić się na wspólnym świętowaniu. Liczymy na Wasze zrozumienie.`,
     },
     {
+      question: "Czy będą poprawiny?",
+      answer: "Nie, nie zdecydowaliśmy się na organizację oficalnych poprawin.",
+    },
+    {
       question: "A co z noclegami dla gości?",
       answer:
-        "Noclegi dla rodziny staramy się rozdysponować w ramach rodzinnych warunków lokalowych. Dla części gości zainteresowanych rezerwacją noclegu przy sali weselnej zapraszamy do wcześniejszego kontaktu.",
+        "Noclegi dla rodziny staramy się rozdysponować w ramach rodzinnych warunków lokalowych. Dla części gości zainteresowanych rezerwacjami noclegów zapraszamy do kontaktu z okolicznymi hotelami w Bełchatowie. Polecamy sprawdzić: Dwór Polski, Hotel Santin, Hotel Restauracja Jan.",
     },
   ];
 
@@ -45,7 +50,7 @@ const Accordion = () => {
                 activeIndex === index ? "active" : ""
               }`}
             >
-              {activeIndex === index ? "-" : "+"}
+              {activeIndex === index ? <FiMinus /> : <FiPlus />}
             </span>
           </div>
           <div

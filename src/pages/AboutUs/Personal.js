@@ -1,17 +1,17 @@
 import React from "react";
-import "./Info.css";
+import "./Personal.css";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 function Info({ ...props }) {
   return (
-    <div className="card-container">
-      <h3 className="ourName">{props.name}</h3>
-      <p className="ourText">{props.text}</p>
-      <div className="socials">
+    <div className="personal-container">
+      <h3 className="personal-name">{props.name}</h3>
+      <p className="personal-text">{props.text}</p>
+      <div className="personal-socials">
         <a
           href={props.facebook}
           target="_blank"
-          className="about-social"
+          className="personal-social"
           aria-label="Facebook"
         >
           <FaFacebook />
@@ -19,7 +19,7 @@ function Info({ ...props }) {
         <a
           href={props.instagram}
           target="_blank"
-          className="about-social"
+          className="personal-social"
           aria-label="Instagram"
         >
           <FaInstagram />

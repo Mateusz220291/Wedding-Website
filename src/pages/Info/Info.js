@@ -10,14 +10,27 @@ function Offer() {
   return (
     <section id="offer" className="info-section">
       <div className="info-container">
-        <h1 data-aos="fade-up" data-aos-once="true" className="title">
+        <h1
+          data-aos="fade-up"
+          data-aos-once="true"
+          className="title text-shadow"
+        >
           Kilka spraw organizacyjnych:
         </h1>
+        <h2
+          data-aos="fade-up"
+          data-aos-once="true"
+          className="subtitle text-shadow"
+        >
+          Jeżeli w tym szczęśliwym dla nas dniu będziecie chcieli nas w jakiś
+          sposób obdarować to poniżej prezentujemy kilka sugestii. Pamiętajcie
+          też o terminie i zgłoszeniu wymagań żywieniowych :)
+        </h2>
         <div className="info-wrapper">
           <OfferCard
             src={Img1}
             title="Zamiast kwiatów"
-            text="Marzymy o tym, by mieć wlasną domową piwniczkę pełną win, dlatego będzie nam miło, jeśli otrzymamy butelkę tego trunku :)"
+            text="Marzymy o tym, by mieć własną domową piwniczkę pełną win, dlatego będzie nam miło, jeśli otrzymamy butelkę tego trunku :)"
           />
           <OfferCard
             src={Img2}

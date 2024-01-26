@@ -17,17 +17,13 @@
   align-items: center;
   object-fit: contain;
 }
-.introText {
-  font-family: "Dancing Script", cursive;
-  font-size: 4rem;
-}
 
-.flex-wrapper {
+.about-flex-wrapper {
   display: flex;
   padding: 60px 0;
 }
 
-.picture {
+.about-picture {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,11 +34,11 @@
   overflow: hidden;
   position: relative;
 }
-.heart-overlay {
+.about-overlay {
   width: 100%;
   height: auto;
 }
-.round-foto {
+.about-foto {
   position: absolute;
   width: 55%;
   border-radius: 50%;
@@ -59,19 +55,19 @@
   text-align: right;
 }
 
-.about-info:last-child .socials {
+.about-info:last-child .personal-socials {
   justify-content: flex-start;
 }
 
 @media (max-width: 768px) {
-  .flex-wrapper {
+  .about-flex-wrapper {
     flex-direction: column;
     padding: 0;
   }
-  .about-info:last-child .socials {
+  .about-info:last-child .personal-socials {
     justify-content: center;
   }
-  .picture {
+  .about-picture {
     margin: 20px 0;
   }
 }

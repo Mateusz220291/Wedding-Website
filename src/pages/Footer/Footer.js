@@ -3,35 +3,28 @@ import "./Footer.css";
 import Contact from "./Contact";
 import Accordion from "./Accordion";
 import Form from "./Form";
-import Countdown from "../Counter/Counter";
-// import { Button } from "./GlobalStyle";
-// import styled from "styled-components";
-// import { Link } from "react-router-dom";
-// import myLogo from "../images/Logo.png";
-
-// import { animateScroll as scroll } from "react-scroll";
-// import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
+import Countdown from "../../components/Counter/Counter";
 
 function Footer() {
-  //   const toggleHome = () => {
-  //     scroll.scrollToTop();
-  //   };
   return (
     <footer className="footer-section" id="contact">
-      <div>
+      <div className="footer-content">
         <h1 className="title">Pytania & Kontakt</h1>
-      </div>
-      <div className="content">
-        <div className="questions">
+        <h2 className="subtitle">
+          W tej cześci zaprezentujemy najcześciej zadawane pytania i odpowiedzi.
+          Jeżeli potrzebujecie więcej informacji zachęcamy do kontaktu poprzez
+          formularz lub bezpośrednio telefonicznie.
+        </h2>
+        <div>
           <Accordion></Accordion>
         </div>
 
-        <div className="contacts">
+        <div className="footer-contacts">
           <Contact></Contact>
           <Form></Form>
         </div>
       </div>
-      <div className="time title">
+      <div className="footer-time title">
         <p>Do zobaczenia za:</p>
         <Countdown />
       </div>
