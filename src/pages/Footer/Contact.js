@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
-import mateuszImage from "./img/mateusz.jpg";
-import kingaImage from "./img/kinga1.jpg";
+import PawełImage from "./img/Paweł.jpg";
+import AlicjaImage from "./img/Alicja1.jpg";
 import mariuszImage from "./img/mariusz2.jpg";
 import karolinaImage from "./img/karolina1.jpg";
 
@@ -10,33 +10,33 @@ const Contact = () => {
     {
       id: 1,
       role: "Panna Młoda - ",
-      name: "Kinga",
-      surname: "Krzaczyńska",
-      phone: "726 760 246",
-      picture: kingaImage,
+      name: "Alicja",
+      surname: "K",
+      phone: "000 000 000",
+      picture: AlicjaImage,
     },
     {
       id: 2,
       role: "Pan Młody - ",
-      name: "Mateusz",
-      surname: "Mikła",
-      phone: "607 252 434",
-      picture: mateuszImage,
+      name: "Paweł",
+      surname: "M",
+      phone: "111 111 111",
+      picture: PawełImage,
     },
     {
       id: 3,
       role: "Świadkowa - ",
       name: "Karolina",
-      surname: "Juszczak",
-      phone: "603 821 779",
+      surname: "J",
+      phone: "222 222 222",
       picture: karolinaImage,
     },
     {
       id: 4,
       role: "Świadek - ",
       name: "Mariusz",
-      surname: "Mikła",
-      phone: "694 132 136",
+      surname: "M",
+      phone: "333 333 333",
       picture: mariuszImage,
     },
   ];

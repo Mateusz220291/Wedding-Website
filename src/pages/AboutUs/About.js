@@ -20,10 +20,10 @@ function AboutSection() {
         <div className="flex-wrapper">
           <div className="about-info">
             <Info
-              name="Kinga Krzaczyńska"
-              text="Kinga to osobowość niezwykle rodzinna i lojalna wobec swoich bliskich. Jest pełna empatii i wrażliwości, zawsze gotowa wesprzeć innych w trudnych chwilach. Zaradna i zdecydowana, potrafi stawić czoła wyzwaniom życiowym, niezależnie od tego, jak trudne mogą być."
-              facebook="https://www.facebook.com/kinga.krzaczynska"
-              instagram="https://www.instagram.com/kinga_krzaczynska/"
+              name="Alicja K"
+              text="Alicja to osobowość niezwykle rodzinna i lojalna wobec swoich bliskich. Jest pełna empatii i wrażliwości, zawsze gotowa wesprzeć innych w trudnych chwilach. Zaradna i zdecydowana, potrafi stawić czoła wyzwaniom życiowym, niezależnie od tego, jak trudne mogą być."
+              facebook="#"
+              instagram="#"
             ></Info>
           </div>
           <div className="picture">
@@ -40,10 +40,10 @@ function AboutSection() {
           </div>
           <div className="about-info">
             <Info
-              name="Mateusz Mikła"
-              text="Mateusz to mężczyzna, który jest niezwykle konsekwentny w dążeniu do swoich celów i realizacji swoich marzeń. Jest wrażliwą duszą, z sercem pełnym miłości dla swoich bliskich i otaczających go osób. Dzięki miłości do Kingi potrafi przenosić góry."
-              facebook="https://www.facebook.com/mateuszmikla"
-              instagram="https://www.instagram.com/mateuszmikla/"
+              name="Paweł M"
+              text="Paweł to mężczyzna, który jest niezwykle konsekwentny w dążeniu do swoich celów i realizacji swoich marzeń. Jest wrażliwą duszą, z sercem pełnym miłości dla swoich bliskich i otaczających go osób. Dzięki miłości do Kingi potrafi przenosić góry."
+              facebook="#"
+              instagram="#"
             ></Info>
           </div>
         </div>

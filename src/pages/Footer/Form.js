@@ -1,17 +1,8 @@
 import React from "react";
 import "./Form.css";
-// import { Button } from "./GlobalStyle";
-// import styled from "styled-components";
-// import { Link } from "react-router-dom";
-// import myLogo from "../images/Logo.png";
-
-// import { animateScroll as scroll } from "react-scroll";
-// import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { Button } from "../Button/Button";
 
 function Form() {
-  //   const toggleHome = () => {
-  //     scroll.scrollToTop();
-  //   };
   return (
     <div className="form-container">
       <div className="wrapper">
@@ -19,7 +10,7 @@ function Form() {
           Potwierdź swoją obecność za pomocą poniższego formularza lub napisz do
           nas bezpośrednio na e-mail:
         </h3>
-        <p className="text">mateuszmikla@wp.pl</p>
+        <p className="text">lorem@wp.pl</p>
       </div>
 
       <form action="" method="POST" className="form">
@@ -54,7 +45,7 @@ function Form() {
           placeholder="wiadomość"
           className="form-textarea"
         />
-        {/* <FormSubmitButton type="submit">Wyślij</FormSubmitButton> */}
+        <Button type="submit">Wyślij</Button>
       </form>
     </div>
   );

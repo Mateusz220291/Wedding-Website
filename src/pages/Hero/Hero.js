@@ -7,9 +7,9 @@ function HeroSection({ scrollToNextSection }) {
   return (
     <div className="hero-container">
       <p>Pobieramy się!</p>
-      <h1>Kinga & Mateusz</h1>
+      <h1>Alicja & Paweł</h1>
       <p className="text">Ciesz się z nami tą chwilą</p>
-      <h2>7 września 2023</h2>
+      <h2>1 stycznia 2023</h2>
       <div className="hero-btns">
         <LinkS
           id="RouterNavLink"

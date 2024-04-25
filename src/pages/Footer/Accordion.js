@@ -12,7 +12,7 @@ const Accordion = () => {
     {
       question: "Jak mogę potwierdzić obecność?",
       answer:
-        "W sprawie potwierdzenia obecności możecie nas poinformować telefonicznie (Kinga i Mateusz) albo za pomocą poniższego formularza. W sprawach organizacyjnych możecie rówmnież porozmawiać z naszymi świadkami - kontakt poniżej ;)",
+        "W sprawie potwierdzenia obecności możecie nas poinformować telefonicznie (Alicja i Paweł) albo za pomocą poniższego formularza. W sprawach organizacyjnych możecie rówmnież porozmawiać z naszymi świadkami - kontakt poniżej ;)",
     },
     {
       question: "Do kiedy mogę potwierdzić obecność?",

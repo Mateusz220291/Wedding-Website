@@ -1,13 +1,7 @@
 import React, { useState } from "react";
 import "./Destination.css";
 import { GoogleMap, MarkerF, useLoadScript } from "@react-google-maps/api";
-import {
-  FaFacebook,
-  FaGlobe,
-  FaInstagram,
-  FaSitemap,
-  FaWeebly,
-} from "react-icons/fa";
+import { FaFacebook, FaGlobe, FaInstagram } from "react-icons/fa";
 
 const TabComponent = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -62,19 +56,14 @@ const TabComponent = () => {
                 </p>
                 <div className="description-socials">
                   <a
-                    href="https://www.facebook.com/profile.php?id=100071010078377"
+                    href="#"
                     target="_blank"
                     className="social"
                     aria-label="Facebook"
                   >
                     <FaFacebook />
                   </a>
-                  <a
-                    href="http://parafiabogdanow.pl/"
-                    target="_blank"
-                    className="social"
-                    aria-label="Facebook"
-                  >
+                  <a href="#" className="social" aria-label="Facebook">
                     <FaGlobe />
                   </a>
                 </div>
@@ -107,7 +96,7 @@ const TabComponent = () => {
                 </p>
                 <div className="description-socials">
                   <a
-                    href="https://www.facebook.com/search/top?q=przysi%C3%B3%C5%82ek%20kresy"
+                    href="#"
                     target="_blank"
                     className="social"
                     aria-label="Facebook"
@@ -115,7 +104,7 @@ const TabComponent = () => {
                     <FaFacebook />
                   </a>
                   <a
-                    href="https://www.instagram.com/przysiolek.kresy/"
+                    href="#"
                     target="_blank"
                     className="social"
                     aria-label="Instagram"

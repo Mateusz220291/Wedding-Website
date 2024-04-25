@@ -32,7 +32,7 @@ function Offer() {
           <OfferCard
             src={Img4}
             title="Termin"
-            text="Pamiętajcie, że 7 września to czwartek. Zadbajcie odpowiednio wcześniej o swoje plany urlopowe a będziecie mogli się cieszyć kolejnym długim weekendem ;)"
+            text="Pamiętajcie, że 1 stycznia to czwartek. Zadbajcie odpowiednio wcześniej o swoje plany urlopowe a będziecie mogli się cieszyć kolejnym długim weekendem ;)"
           />
         </div>
       </div>
